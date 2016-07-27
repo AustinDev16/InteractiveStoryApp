@@ -14,6 +14,9 @@
 		D908A7051D4820180059D5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D908A7031D4820180059D5B9 /* Main.storyboard */; };
 		D908A7071D4820180059D5B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D908A7061D4820180059D5B9 /* Assets.xcassets */; };
 		D908A70A1D4820180059D5B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D908A7081D4820180059D5B9 /* LaunchScreen.storyboard */; };
+		D9F808A41D490CB2002FC4D9 /* HappyEnding.wav in Resources */ = {isa = PBXBuildFile; fileRef = D9F808A11D490CB2002FC4D9 /* HappyEnding.wav */; };
+		D9F808A51D490CB2002FC4D9 /* Ominous.wav in Resources */ = {isa = PBXBuildFile; fileRef = D9F808A21D490CB2002FC4D9 /* Ominous.wav */; };
+		D9F808A61D490CB2002FC4D9 /* PageTurn.wav in Resources */ = {isa = PBXBuildFile; fileRef = D9F808A31D490CB2002FC4D9 /* PageTurn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		D908A7061D4820180059D5B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D908A7091D4820180059D5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D908A70B1D4820180059D5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F808A11D490CB2002FC4D9 /* HappyEnding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = HappyEnding.wav; path = ../../../../../../../../Downloads/Sounds/HappyEnding.wav; sourceTree = "<group>"; };
+		D9F808A21D490CB2002FC4D9 /* Ominous.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Ominous.wav; path = ../../../../../../../../Downloads/Sounds/Ominous.wav; sourceTree = "<group>"; };
+		D9F808A31D490CB2002FC4D9 /* PageTurn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = PageTurn.wav; path = ../../../../../../../../Downloads/Sounds/PageTurn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +72,19 @@
 				D908A70B1D4820180059D5B9 /* Info.plist */,
 				D90439BE1D4844E200DBC32F /* InteractiveStory.swift */,
 				D90439C01D484FAC00DBC32F /* PageController.swift */,
+				D9F808A01D490C6F002FC4D9 /* Resources */,
 			);
 			path = InteractiveStoryApp;
+			sourceTree = "<group>";
+		};
+		D9F808A01D490C6F002FC4D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9F808A11D490CB2002FC4D9 /* HappyEnding.wav */,
+				D9F808A21D490CB2002FC4D9 /* Ominous.wav */,
+				D9F808A31D490CB2002FC4D9 /* PageTurn.wav */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +146,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F808A51D490CB2002FC4D9 /* Ominous.wav in Resources */,
 				D908A70A1D4820180059D5B9 /* LaunchScreen.storyboard in Resources */,
 				D908A7071D4820180059D5B9 /* Assets.xcassets in Resources */,
+				D9F808A41D490CB2002FC4D9 /* HappyEnding.wav in Resources */,
+				D9F808A61D490CB2002FC4D9 /* PageTurn.wav in Resources */,
 				D908A7051D4820180059D5B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
