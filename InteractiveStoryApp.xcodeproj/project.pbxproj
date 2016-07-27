@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D90439BF1D4844E200DBC32F /* InteractiveStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90439BE1D4844E200DBC32F /* InteractiveStory.swift */; };
+		D90439C11D484FAC00DBC32F /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90439C01D484FAC00DBC32F /* PageController.swift */; };
 		D908A7001D4820180059D5B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908A6FF1D4820180059D5B9 /* AppDelegate.swift */; };
 		D908A7021D4820180059D5B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908A7011D4820180059D5B9 /* ViewController.swift */; };
 		D908A7051D4820180059D5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D908A7031D4820180059D5B9 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		D90439BE1D4844E200DBC32F /* InteractiveStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveStory.swift; sourceTree = "<group>"; };
+		D90439C01D484FAC00DBC32F /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 		D908A6FC1D4820180059D5B9 /* InteractiveStoryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveStoryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D908A6FF1D4820180059D5B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D908A7011D4820180059D5B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				D908A7081D4820180059D5B9 /* LaunchScreen.storyboard */,
 				D908A70B1D4820180059D5B9 /* Info.plist */,
 				D90439BE1D4844E200DBC32F /* InteractiveStory.swift */,
+				D90439C01D484FAC00DBC32F /* PageController.swift */,
 			);
 			path = InteractiveStoryApp;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90439C11D484FAC00DBC32F /* PageController.swift in Sources */,
 				D90439BF1D4844E200DBC32F /* InteractiveStory.swift in Sources */,
 				D908A7021D4820180059D5B9 /* ViewController.swift in Sources */,
 				D908A7001D4820180059D5B9 /* AppDelegate.swift in Sources */,
